@@ -1,0 +1,14 @@
+@import url(./__iframes/video__iframes.css);
+@import url(./__iframe/video__iframe.css);
+
+.video {
+  position: relative;
+  min-height: 436px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 100px 0 0;
+  padding: 0;
+}

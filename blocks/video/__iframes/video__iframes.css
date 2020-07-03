@@ -1,0 +1,10 @@
+.video__iframes {
+  position: absolute;
+  left: 50%;
+  bottom: -50px;
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+  padding: 0;
+  transform: translate(-50%, 0);
+}

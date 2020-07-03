@@ -1,0 +1,7 @@
+.cards__item {
+ box-sizing: border-box;
+ width: 240px;
+ padding: 60px 0 0;
+ margin: 0;
+ text-align: center;
+}

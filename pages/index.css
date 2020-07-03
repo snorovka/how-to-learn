@@ -1,0 +1,53 @@
+@import url(../vendor/normalize.css);
+
+/*блок всей страницы*/
+  @import url(../blocks/page/page.css);
+
+/*логотипы Яндекс*/
+  @import url(../blocks/logo/logo.css);
+
+/*шапка*/
+  @import url(../blocks/header/header.css);
+  @import url(../blocks/rotation/rotation.css);
+
+/*@import url(../blocks/content/content.css);*/
+
+/*описание*/
+  @import url(../blocks/description/description.css);
+  @import url(../blocks/two-columns/two-columns.css);
+
+ /*техники*/
+ @import url(../blocks/techniques/techniques.css);
+ @import url(../blocks/cards/cards.css);
+
+/*видео*/
+  @import url(../blocks/video/video.css);
+
+/*оакли*/
+  @import url(../blocks/oakley/oakley.css);
+
+/*фейнман*/
+  @import url(../blocks/feynman/feynman.css);
+
+/*цифры*/
+  @import url(../blocks/digits/digits.css);
+  @import url(../blocks/section-title/section-title.css);
+  @import url(../blocks/section-subtitle/section-subtitle.css);
+  @import url(../blocks/table/table.css);
+
+/*хан*/
+  @import url(../blocks/khan/khan.css);
+
+/*кауфман*/
+  @import url(../blocks/kaufman/kaufman.css);
+  @import url(../blocks/section-title/_theme/section-title_theme_dark.css);
+  @import url(../blocks/section-subtitle/_theme/section-subtitle_theme_dark.css);
+  @import url(../blocks/table/_theme/table_theme_dark.css);
+  @import url(../blocks/table/__cell/_theme/table__cell_theme_dark.css);
+
+/*ссылки*/
+  @import url(../blocks/resources/resources.css);
+
+/*подвал*/
+  @import url(../blocks/footer/footer.css);
+

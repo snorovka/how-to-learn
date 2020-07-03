@@ -3,8 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./styles/normalize.css">
-  <link rel="stylesheet" href="./styles/style.css">
+  <link rel="stylesheet" href="./pages/index.css">
   <title>Научиться учиться</title>
   <meta name="description" content="Проектная работа 1 Ю. Зориной на Яндекс.Практикум">
   <meta name="keywords" content="html, css, javascript">
@@ -16,16 +15,15 @@
 
   <!--шапка-->
     <header class="header">
-      <img class="logo logo_place_header" src="./images/logo_place_header.svg" alt="логотип Яндекс.Практикум">
+      <img class="logo logo_place_header" src="./images/logo/logo_place_header.svg" alt="логотип Яндекс.Практикум">
       <h1 class="header__title">Научиться учиться</h1>
       <p class="header__subtitle">Какие современные и эффективные подходы к обучению вы можете использовать в своей жизни?
         <a class="header__link" href=#>Узнать&#8594;</a>
       </p>
-      <div class="header__square-pic">
+      <div class="header__square-pic rotate">
       </div>
       <img class="header__main-illustration" src="./images/header-image.png" alt="фрагмент картины Фёдора Решетникова 'Опять двойка'">
     </header>
-
 
     <main class="content">
 
@@ -47,8 +45,84 @@
       </section>
     <!--конец описания-->
 
+    <!--техники-->
+      <section class="techniques">
+        <h2 class="section-title">Техники обучения</h2>
+        <p class="section-subtitle">Пять практик от Барбары Оакли</p>
+        <div class="cards">
+          <div class="cards__item">
+            <img class="cards__image" src="./images/cards-attention.png" alt="внимание">
+            <h3 class="cards__title">Два вида внимания</h3>
+            <p class="cards__description">Глубокие знания возникают, если чередовать сфокусированное и рассеянное мышление.</p>
+          </div>
+          <div class="cards__item">
+            <img class="cards__image" src="./images/cards-recall.png" alt="recall">
+            <h3 class="cards__title">Recall</h3>
+            <p class="cards__description">Вспоминайте изученное — это позволит соединить разрозненные порции памяти.</p>
+          </div>
+          <div class="cards__item">
+            <img class="cards__image" src="./images/cards-interliving.png" alt="интерливинг">
+            <h3 class="cards__title">Интерливинг</h3>
+            <p class="cards__description">Изучайте несколько навыков одновременно, они обогащают друг друга.</p>
+          </div>
+          <div class="cards__item">
+            <img class="cards__image" src="./images/cards-question.png" alt="вопросы">
+            <h3 class="cards__title">Вопросы</h3>
+            <p class="cards__description">Слушая преподавателя, придумывайте хороший вопрос, который вас действительно волнует.</p>
+          </div>
+          <div class="cards__item">
+            <img class="cards__image" src="./images/cards-competence.png" alt="иллюзия компетентности">
+            <h3 class="cards__title">Иллюзия компетентности</h3>
+            <p class="cards__description">Повторите про себя, запишите, расскажите другу: вам только кажется, что вы владеете новой темой.</p>
+          </div>
+        </div>
+      </section>
+    <!--конец техник-->
 
-    <!--цифры-->
+    <!--видео-->
+    <section class="video">
+      <h2 class="section-title">Видео нa TED</h2>
+      <p class="section-subtitle">Для тех, кто любит прокрастинировать</p>
+      <div class="video__iframes">
+        <iframe class="video__iframe" src="https://www.youtube.com/embed/5MgBikgcWnY"
+        title="TED talks. Джош Кауфман 'Как научиться учиться'"
+        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+        <!--видео Джоша Кауфмана "Как научиться учиться"--></iframe>
+        <iframe class="video__iframe" src="https://www.youtube.com/embed/arj7oStGLkU"
+        title="TED talks. Тим Урбан 'Как устроен мозг заядлого прокрастинатора'"
+        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+        <!--видео Тима Урбана "Как устроен мозг заядлого прокрастинатора"--></iframe>
+      </div>
+    </section>
+  <!--конец видео-->
+
+  <!--оакли-->
+    <section class="oakley">
+      <div class="two-columns">
+        <h2 class="two-columns__brief">История Барбары Оакли</h2>
+        <div class="two-columns__main-text">
+          <p class="two-columns__paragraph">
+            С детства Барбаре не давалась математика. Она считала себя законченным гуманитарием,
+            причём далеко не самым умным. В армии она изучала русский язык, чтобы получить надбавку,
+            да так успешно, что её выдвинули в командиры. Но для продвижения по службе нужно было
+            сдавать математику. И тогда Барбара придумала свой подход к точным наукам. Оказалось,
+            если вам что-то «плохо даётся», ваши добытые трудом знания гораздо глубже, чем у тех,
+            кому всё ясно с первого взгляда.</p>
+        </div>
+      </div>
+    </section>
+  <!--конец оакли-->
+
+  <!--фейнман-->
+    <section class="feynman">
+      <img class="feynman__main-illustration" src="./images/feynman.png" alt="Ричард Фейнман">
+      <h2 class="feynman__title">Метод Фейнмана</h2>
+      <p class="feynman__subtitle">Выучить и не забыть.</p>
+      <a class="feynman__link" href=#>Подробнее&#8594;</a>
+    </section>
+  <!--конец фейнмана-->
+
+  <!--цифры-->
       <section class="digits">
         <h2 class="section-title">Цифры и факты</h2>
         <p class="section-subtitle">Про учёбу и мозг</p>
@@ -91,19 +165,28 @@
       </section>
     <!--конец цифр-->
 
-    <!--фейнман-->
-      <section class="feynman">
-        <img class="feynman__main-illustration" src="./images/feynman.png" alt="Ричард Фейнман">
-        <h2 class="feynman__title">Метод Фейнмана</h2>
-        <p class="feynman__subtitle">Выучить и не забыть.</p>
-        <a class="feynman__link" href=#>Подробнее&#8594;</a>
+    <!--хан-->
+      <section class="khan">
+        <div class="khan__container">
+          <p class="khan__author">Салман Хан</p>
+          <h2 class="khan__title">Весь мир — школа</h2>
+          <p class="khan__quote">Страсть и новаторство Сала Хана меняют процесс обучения миллионов студентов по всему миру.
+            Книгу «Весь мир — школа» нужно прочитать всем, кто занимается образованием — так учащиеся повсюду смогут получить
+            навыки и знания, которые приносят успех в школе, карьере и жизни.
+          </p>
+          <p class="khan__quote-author">Джордж Лукас</p>
+          <p class="khan__quote-author-subline">Кинорежиссер, продюсер</p>
+          <div class="khan__book-container">
+            <img class="khan__book-pic" src="./images/khan-book.jpg" alt="Весь мир - школа">
+            <a class="khan__buy-link" href="#">Купить книгу&#8594;</a>
+          </div>
+        </div>
       </section>
-    <!--конец фейнмана-->
-
+    <!--конец хана-->
 
     <!--кауфман-->
       <section class="kaufman">
-       <div class="kaufman__triangle"></div>
+       <img class="kaufman__triangle rotate" src="./images/kaufman-triangle.svg" alt="синий треугольник">
        <h2 class="section-title section-title_theme_dark">Принципы обучения</h2>
         <p class="section-subtitle section-subtitle_theme_dark">от Джоша Кауфмана</p>
           <ul class="table table_theme_dark">
@@ -151,13 +234,37 @@
       </section>
     <!--конец кауфмана-->
 
+    <!--ссылки-->
+      <section class="resources">
+        <h2 class="section-title">Полезные ресурсы</h2>
+        <p class="section-subtitle">Больше материалов о техниках и лайфхаках обучения</p>
+        <ul class="resources__logo-zone">
+            <li>
+              <a href="#" class="resources__link">
+              <img class="resources__logo" src="./images/logo/resources-arzamas.svg" alt="Арзамас"></a>
+            </li>
+            <li>
+              <a href="#" class="resources__link">
+              <img class="resources__logo" src="./images/logo/resources-n1.svg" alt="N + 1"></a>
+            </li>
+            <li>
+              <a href="#" class="resources__link">
+              <img class="resources__logo" src="./images/logo/resources-strelka.svg" alt="Стрелка"></a>
+            </li>
+            <li>
+              <a href="#" class="resources__link">
+              <img class="resources__logo" src="./images/logo/resources-polka.svg" alt="Полка"></a>
+            </li>
+        </ul>
+      </section>
+    <!--конец ссылок-->
     </main>
 
   <!--подвал-->
     <footer class="footer">
       <div class="footer__columns">
         <div class="footer__column footer__column_content_copyright">
-         <img  class="logo logo_place_footer" src="./images/logo_place_footer.svg" alt="логотип Яндекс.Практикум">
+         <img  class="logo logo_place_footer" src="./images/logo/logo_place_footer.svg" alt="логотип Яндекс.Практикум">
          <p class="footer__author">&copy; 2020. Юлия Зорина</p>
         </div>
         <div class="footer__column footer__column_content_info">
