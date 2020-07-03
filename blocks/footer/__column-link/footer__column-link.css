@@ -4,9 +4,9 @@
   font-size: 18px;
   text-decoration: none;
   margin: 0;
+  transition: opacity 1s ease-in-out;
 }
 
 .footer__column-link:hover {
   opacity: 45%;
-  transition: opacity 1s ease-in-out;
 }

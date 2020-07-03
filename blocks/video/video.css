@@ -2,8 +2,6 @@
 @import url(./__iframe/video__iframe.css);
 
 .video {
-  position: relative;
-  min-height: 436px;
   display: flex;
   flex-direction: column;
   justify-content: start;
